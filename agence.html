@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Évasion Voyante - Agence de Voyage</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!--Barre de navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<div class="container">
+<a class="navbar-brand fw-bold" href="#">🌍 Évasion</a>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+<ul class="navbar-nav">
+<li class="nav-item"><a class="nav-link active" href="#">Accueil</a></li>
+<li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+<li class="nav-item"><a class="nav-link" href="#voyages">Circuits</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<!--Section héros-->
+<header class="hero-section text-white text-center d-flex align-items-center justify-content-center">
+<div class="container">
+<h1 class="display-3 fw-bold mb-3">Découvrez le monde avec nous</h1>
+<p class="lead mb-4">Partez à la découverte de destinations pittoresques et inoubliables.</p>
+<a href="#destinations" class="btn btn-primary btn-lg fw-bold px-4">Explorer les offres</a>
+</div>
+</header>
+
+<!-- Section Destinations -->
+<section id="destinations" class="py-5 bg-light">
+<div class="container">
+<h2 class="text-center mb-5 fw-bold text-dark">Destinations Populaires</h2>
+<div class="row g-4">
+<!-- الوجهة الأولى -->
+<div class="col-md-4">
+<div class="card h-100 shadow-sm">
+<img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="Paris">
+<div class="card-body text-center">
+<h5 class="card-title fw-bold">Paris, France</h5>
+<p class="card-text text-muted">La ville de l'amour et des lumières vous attend.</p>
+</div>
+</div>
+</div>
+<!-- الوجهة الثانية -->
+<div class="col-md-4">
+<div class="card h-100 shadow-sm">
+<img src="https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="Londres">
+<div class="card-body text-center">
+<h5 class="card-title fw-bold">Londres, Royaume-Uni</h5>
+<p class="card-text text-muted">Explorez l'histoire et la modernité britannique.</p>
+</div>
+</div>
+</div>
+<!-- الوجهة الثالثة -->
+<div class="col-md-4">
+<div class="card h-100 shadow-sm">
+<img src="https://images.unsplash.com/photo-1539650116574-8efeb43e2750?auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="Tokyo">
+<div class="card-body text-center">
+<h5 class="card-title fw-bold">Tokyo, Japon</h5>
+<p class="card-text text-muted">Un mélange unique entre tradition et futurisme.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+<section id="voyages" class="py-5">
+<div class="container">
+<h2 class="text-center mb-5 fw-bold">Nos Circuits Organisés</h2>
+<div class="row justify-content-center">
+<div class="col-md-8">
+<div class="accordion" id="voyagesAccordion">
+<!-- رحلة 1 -->
+<div class="accordion-item">
+<h2 class="accordion-header" id="headingOne">
+<button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+Circuit Européen (7 Jours)
+</button>
+</h2>
+<div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#voyagesAccordion">
+<div class="accordion-body">
+<p class="text-muted">Visitez les plus belles capitales européennes en une semaine avec un guide touristique expert.</p>
+<a href="#" class="btn btn-sm btn-outline-primary">Voir les détails</a>
+</div>
+</div>
+</div>
+<!-- رحلة 2 -->
+<div class="accordion-item">
+<h2 class="accordion-header" id="headingTwo">
+<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+Aventure Asiatique (10 Jours)
+</button>
+</h2>
+<div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#voyagesAccordion">
+<div class="accordion-body">
+<p class="text-muted">Plongez au cœur des cultures orientales, des temples anciens et des paysages époustouflants.</p>
+<a href="#" class="btn btn-sm btn-outline-primary">Voir les détails</a>
+</div>
+</div>
+</div>
+<!-- رحلة 3 -->
+<div class="accordion-item">
+<h2 class="accordion-header" id="headingThree">
+<button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+Évasion Tropicale (5 Jours)
+</button>
+</h2>
+<div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#voyagesAccordion">
+<div class="accordion-body">
+<p class="text-muted">Détendez-vous sur les plages de sable fin et profitez d'un séjour paradisiaque tout compris.</p>
+<a href="#" class="btn btn-sm btn-outline-primary">Voir les détails</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!--Formulaire de contact-->
+<section id="contact" class="py-5 bg-light">
+<div class="container">
+<h2 class="text-center mb-5 fw-bold">Contactez-nous</h2>
+<div class="row justify-content-center">
+<div class="col-md-8">
+<form class="p-4 bg-white rounded shadow-sm">
+<div class="mb-3">
+<label for="name" class="form-label">Nom</label>
+<input type="text" class="form-control" id="name" placeholder="Votre nom complet" required>
+</div>
+<div class="mb-3">
+<label for="email" class="form-label">Adresse électronique</label>
+<input type="email" class="form-control" id="email" placeholder="votre.email@example.com" required>
+</div>
+<div class="mb-3">
+<label for="destination" class="form-label">Destination d'intérêt</label>
+<input type="text" class="form-control" id="destination" placeholder="Ex: Paris, Tokyo..." required>
+</div>
+<div class="mb-3">
+<label for="message" class="form-label">Message</label>
+<textarea class="form-control" id="message" rows="4" placeholder="Parlez-nous de votre projet de voyage..." required></textarea>
+</div>
+<button type="submit" class="btn btn-dark w-100 fw-bold">Envoyer</button>
+</form>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Pied de page-->
+<footer class="bg-dark text-white text-center py-4">
+<div class="container">
+<p class="mb-1">© 2026 Évasion. Tous droits réservés.</p>
+<div class="social-icons">
+<a href="#" class="text-white mx-2">Facebook</a> |
+<a href="#" class="text-white mx-2">Instagram</a> |
+<a href="#" class="text-white mx-2">Twitter</a>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
